@@ -3,7 +3,7 @@ name: Deploy to Dev Environment
 on:
   workflow_dispatch:
   push:
-    branches: [main]
+    branches: [master]
   schedule:
     - cron: "0 0 * * SUN,WED" # This runs at least once a week to keep the CLASPRC_JSON tokens alive
 

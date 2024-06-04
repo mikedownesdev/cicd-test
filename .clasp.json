@@ -1,1 +1,5 @@
-{"scriptId":"1TZQsWjnjLQaUePap_7o0K4F0rwgkR8-8QYvw-wZsyK-swp4e8xKiBS4k","rootDir":"/Users/michaeldownes/Development/Personal/cicd-test"}
+{
+  "rootDir": "src",
+  "scriptId": "",
+  "fileExtension": "ts"
+}

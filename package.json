@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "setup": "chmod +x ./setup.sh && ./setup.sh",
+    "login": "npx clasp login",
+    "push": "npx clasp push",
+    "open": "npx clasp open",
+    "dev": "npm run clasp/local && npx clasp push --watch",
+    "clasp/local": "npx clasp-env --folder . --scriptId '1TPQzwlEovgx3KG-7OHtjbR_KbFQKCjRjIAjIFWRNPb0jTkt_DvLsLm6w'"
+  },
+  "dependencies": {
+    "@google/clasp": "^2.4.2",
+    "@types/google-apps-script": "^1.0.78",
+    "clasp-env": "^1.0.1"
+  }
+}
